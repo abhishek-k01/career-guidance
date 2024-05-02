@@ -1,0 +1,279 @@
+<html>
+    <head>
+        <title>
+            Carrer Guide
+        </title>
+        <link rel="stylesheet" href="C:\VIIT\Education\home2\homepage.css">
+<!-- Bootstrap Scripts -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!--javascript-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Font style-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script><!--load all styles -->
+    </head>
+    <body>
+<!--nav bar-->
+<div class="first-div">
+<nav class="nnn navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#aboutus">
+        <img src="C:\VIIT\Education\home2\poetry.png" alt="no-img" width="30" height="24" class="d-inline-block align-text-top">
+        Carrer Navigator
+      </a>
+    </div>
+  </nav>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="n navbar-collapse collapse" id="navbarTogglerDemo02">
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#option">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#cut">Questionare</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About us</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto ms-auto">
+      <li class="nav-item">
+        <button type="button" class="nav-link btn" data-toggle="modal"data-target="#exampleModalCenter1"><a href="http://localhost/miniproject/regis.html" class="nav-link">Register</a></button>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="nav-link btn" data-toggle="modal"data-target="#exampleModalCenter2"><a href="http://localhost/miniproject/regis.html" class="nav-link">Login</a></button>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--login-form
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <form method="post" action="">
+            <div class="form-group row">
+              <label for="inputEmail4"class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              </div>
+            </div>
+            <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+            <div class="input-group  mr-sm-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+
+
+<!--registration-form--><!-- Moda
+<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <form method="post" action="reg.php">
+            <div class="form-group row">
+              <label for="inputEmail4"class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              </div>
+            </div>
+            <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+            <div class="input-group  mr-sm-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+        <button type="button" class="btn btn-primary">register</button>
+      </div>
+    </div>
+  </div>
+</div>-->
+<!--Frist-div-->
+<div class="circles">
+  <div class="">
+    <img class="hehe" src="C:\VIIT\Education\home2\pexels-yan-krukau-6818307-modified.png"alt="no-img">
+    <div class="circle1">                        .</div>
+    <div class="circle2">                        .</div>
+    <div class="square">                         .</div>
+  </div>
+  <div class="left">
+      <strong>CARRER NAVIGATOR</strong></br>
+      <div class="head">Know Your way, learn and achieve</br>your dreams</div></br>
+      We are there to help and support you.
+  </div>
+</div>
+<!--Second-div-->
+<div class="card-group options">
+  <div class="row col-lg-3 p-3 col-sm-12">
+    <div class="m-2">
+    <div class="card shadow-lg p-0 bg-body-tertiary rounded option h-100">
+      <a class="text-decoration-none"href="C:/VIIT/Education/home2/codding%20newbie.html">
+      <img class="card-img-top im-1" src="C:\VIIT\Education\home2\imageedit_17_9253923354.png" alt="no-img">
+      <div class="card-body">
+        <h5 class="card-title">Coding Newbie</h5>
+        <p class="card-text">New to coding and need a starting point? Begin your coding journey ,know what are all the technologies, select what you are most drawn to and unleash your creativity and problem-solving skills. Happy coding!</p>
+      </div></a>
+    </div></div>
+  </div>
+  <div class="row col-lg-3 p-3 col-sm-12">
+    <div class="m-2">
+    <div class="card shadow-lg p-0 bg-body-tertiary rounded option h-100">
+      <a class="text-decoration-none" href="file:///C:/VIIT/Education/home2/learningblock.html">
+      <img class="card-img-top im-2"src="C:\VIIT\Education\home2\imageedit_27_2994963459.jpg" alt="no-img">
+      <div class="card-body">
+        <h5 class="card-title">Learning</h5>
+        <p class="card-text">Are you looking for free references to take your coding skills from beginner to advanced level? This is your gateway to a treasure trove of resources! Click here to access a curated list of free online references and learning platforms. From beginning to advance level.</p>
+      </div></a>
+    </div></div>
+  </div>
+  <div class="row col-lg-3 p-3 col-sm-12">
+    <div class="m-2">
+    <div class="card shadow-lg p-0 bg-body-tertiary rounded option h-100">
+      <a class="text-decoration-none" href="file:///C:/VIIT/Education/home2/internship.html">
+      <img class="card-img-top im-3" src="C:\VIIT\Education\home2\imageedit_15_2955108417.jpg" alt="no-img">
+      <div class="card-body">
+        <h5 class="card-title">Internships & Projects</h5>
+        <p class="card-text">Interested in internships and want to learn all about them? This card is your go-to resource! Click here to discover everything you need to know about internships, from their definition to finding the right opportunities and making the most of your experience.</p>
+      </div></a>
+    </div>
+    </div>
+  </div>
+  <div class="row col-lg-3 p-3 col-sm-12 opt">
+    <div class="m-2">
+    <div class="card shadow-lg p-0 bg-body-tertiary rounded option h-100">
+      <a class="text-decoration-none" href="C:\VIIT\Education\home2\interview.html">
+      <img class="card-img-top im-4" src="C:\VIIT\Education\home2\imageedit_36_5298364765.jpg" alt="no-img">
+      <div class="card-body">
+        <h5 class="card-title">Interview</h5>
+        <p class="card-text">Want to master interviews! This is a comprehensive guide on interview success and essential exam dates. Learn interview strategies, including preparation tips and making a lasting impression. Don't forget to connect with seniors in your field! They can offer valuable insights and advice.</p>
+      </div></a>
+    </div></div>
+  </div>
+</div>
+<!--About our website-->
+<div class="trail"id="about">
+<div class="container-fluid row trail1">
+  <div class="col-lg-4 trailimg1">
+    <img class="trail-img" src="C:\VIIT\Education\home2\fin1.png" alt="no-img">
+  </div>
+  <div class="col-lg-7 trail-text">
+    <div class="head">Helping students build a better future for themselves.....</div>
+    Our mission is simple: To build an educational platform that serves as a one-stop-shop for students seeking to enhance their skills and advance their careers. And we made it.
+    <strong>CAREER NAVIGATOR</strong> is an educational platform exclusively for coding enthusiasts. This platform offers a wide range of resources that you can use for free to level up your coding game.
+    But...But...I don't know anything about coding; what should I do? Just go to the <strong>NEWBIE</strong> block, and you can move from nothing to something in a few minutes.
+  </div>
+</div>
+</div>
+<!--questionare block-->
+<div class="cutt"id="cut">
+  <div class="container-fluid row "id="cutt1">
+    <div class="col-lg-6 trail-text que-text">
+      <div class="head">Questionare </div><br>
+      Please tell use the problems you are facing and why you are visiting your website,</br> so that we can help you through it.</br>
+      <button type="button" class="btn btn-secondary btn-lg btn-block">Tell us why</button>
+    </div>
+    <div class="col-lg-3 lol">
+      <img class="y" src="C:\VIIT\Education\home2\explaining.png" alt="no=img">
+    </div>
+    </div>
+</div>
+<!--about grp-->
+<div class="ab"id="aboutus">
+  <div class="container-fluid row ab-1">
+    <div class="col-lg-4 trailimg1">
+      <img class="ab-img" src="C:\VIIT\Education\home2\grpphoto3.png" alt="no-img">
+    </div>
+    <div class="col-lg-7 trail-text">
+      Out of the blue, the teachers split us into groups, and they said this group was for a mini project. And that's how this team formed. Everyone started brainstorming, and after a day of debate, we decided to build an educational platform and that's how <strong>CARRER NAVIGATOR</strong> was created.</br>
+      Basically, we want to help students who just got into BTech (or are already in <strong>BTech</strong>) and don't know anything about coding or want to learn how to code. That's what we're focusing on when building this platform.
+      We are students from <strong>VIIT</strong>, <strong>CSE</strong>. And currently, we are in our <strong>second year</strong>, section B. We are dedicating our time and effort to ensure that the platform is of the finest possible quality and fulfills our expectations of being beneficial to our peers and the entire college.
+      </br>
+      <div class="head">Know your way and get inspired</div></br>
+      hope your website is uesful.
+    </div>
+  </div>
+  </div>
+
+<!--Footer-->
+<footer class="white-section">
+  <div class="container-fluid"id="footer">
+    <ion-icon name="logo-instagram"class="once"></ion-icon>
+    <ion-icon name="logo-twitter"class="once"></ion-icon>
+    <ion-icon name="logo-whatsapp"class="once"></ion-icon>
+    <ion-icon name="logo-linkedin"class="once"></ion-icon>
+    <p class="foot">© Copyright VIIT</p>
+  </div>
+</footer>
+<!--J-Query-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!--J-Query--Animate-->
+<script src="J-Query-home.js" charset="utf-8"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="dist/animsition.min.js"></script><br>
+
+</body>
+</html>

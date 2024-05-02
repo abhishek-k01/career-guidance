@@ -1,0 +1,262 @@
+.head
+{
+    font-family: 'Montserrat', sans-serif;
+}
+/*nav-bar*/
+.imglog
+{
+    border-radius: 10%;
+}
+.nnn
+{
+    background-color: #1A5F7A;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+/*first-div*/
+.circles
+{
+    background-color: #1A5F7A;
+    padding-bottom: 20%;
+}
+.square  
+{
+    z-index: 0;
+    display: inline-block;
+    background-color:rgba(89,193,189,0.8);
+    height: 0%;
+    width:0%;
+    position:absolute;
+    margin-left: 5%;
+    margin-top: 10%;
+    color:#1A5F7A;
+}
+.circle1
+{
+    display: inline-block;
+    background-color: #CBE4DE;
+    border-radius: 60%;
+    position: absolute;
+    height: 60%;
+    width: 28%;
+    margin-top:5%;
+    margin-left: 55%;
+    color:#1A5F7A;
+}    
+.circle2
+{
+    z-index: 1;
+    display: inline-block;
+    background-color:#59C1BD;
+    border-radius: 60%;
+    height: 60%;
+    width: 28%;
+    position: absolute;
+    /*margin-left: 57%;*/
+    margin-top: 5%;
+    margin-left: 55%;
+    color: #1A5F7A;
+}   
+.hehe
+{
+    z-index:2;
+    display: inline-block;
+    height: 60%;
+    width:auto;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 57%;
+}
+.left
+{
+    padding-left: 10%;
+    padding-top:15%;
+    display:inline-block;
+    color: aliceblue;
+}
+/*options section*/
+.options .active a, .options .hover a,.options a 
+{
+    color:#000;
+}
+.options
+{
+    background-color:#F6F6F6;
+    padding-top: 8%;
+    padding-bottom:8%;
+    padding-left:5%;
+}
+.im-1,.im-2,.im-3,.im-4
+{
+    height:200px;
+    width:auto;
+}
+/*about-web-site*/    /*About-grp*/
+.trail,.ab
+{
+    background-color: #1A5F7A;
+    color: aliceblue;
+}
+.trail-img
+{
+    padding-left: 7%;
+}
+/*Questionare*/
+.cutt
+{
+    background-color: #C5E5E7;
+    color: black;
+}
+/* Footer Section*/
+.once
+{
+    padding: 2% 1%;
+}
+.white-section
+{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    font-family: "Montserrat";
+    margin-top: 0%;
+}
+#footer
+{
+    padding: 7% 15%;
+}
+.foot
+{
+    color: #8f8f8f;
+}
+/**Responsive Design*/
+@media (max-width:1285px)
+{
+    .circle1,.circle2
+    {
+        display: none;
+    }
+}
+@media (max-width:1100px)
+{
+    .hehe
+    {
+        display: none;
+        /*opacity: 0.5;
+        height: 30%;*/
+    }
+    .card-title
+    {
+        font-size: 4rem;
+    }
+    .card-text
+    {
+        font-size: 3rem;
+    }
+    .navbar
+    {
+        height:125px;
+        font-size: 15px;
+    }
+}
+@media(max-width:992px)
+{
+    *
+    {
+        text-align: center;
+    }
+    .circles
+    {
+        padding-right: 5%;
+        padding-top: 48%;
+        padding-bottom: 65%;
+    }
+    .head  
+    {
+        display: inline-block;
+        font-size: calc(4rem + .9vw);
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.5;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .trailimg1
+    {
+        height:50%;
+    }
+    .trail,.ab
+    {
+        padding:3%;
+    }
+    .trail,.ab,.cutt
+    {
+        padding-top: 23%;
+        padding-bottom: 23%;
+    }
+    .trail-text,.circles
+    {
+        font-size: 3rem;
+    }
+    .y,.lol 
+    {
+        display: block;
+    }
+}
+@media(min-width:992px)
+{
+    .head  
+    {
+        display: inline-block;
+        font-size: calc(1.325rem + .9vw);
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .trail
+    {
+        padding: 5%;
+    }
+    .ab
+    {
+        padding-top: 12%;
+        padding-left: 3%;
+        height:101%;
+    }
+    .trail1
+    {
+        padding-top: 7%;
+        margin-bottom: 1%;
+    }
+    .trail-img
+    {
+        height:90%;
+    }
+    .ab-1  
+    {
+        padding-top: 0%;
+    }
+    .ab-img
+    {
+        height:55%;
+        padding-left: 8%;
+    }
+    .que-text  
+    {
+        padding: 8%;
+    }
+    .y
+    {
+        height:35%;
+        padding-bottom: 10%;
+        padding-left: 40%;
+    }
+    .cutt  
+    {
+        height: 50%;
+        padding-left: 10%;
+    }
+}

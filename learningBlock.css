@@ -1,0 +1,47 @@
+.nnav
+{
+    padding-top: 10%;
+    background-color:#F6F6F6; 
+}
+.nnav-1  
+{
+    padding-top: 2%;
+}
+.first
+{
+    background-color:#F6F6F6;
+}
+.help
+{
+    padding: 12%;
+}
+.help1  
+{
+    padding:15%;
+}
+.txt
+{
+    padding-top: 5%;
+}
+.himg  
+{
+    height:auto;
+    width:30%;
+}
+.kills,.k
+{
+    margin:20%;
+    padding: 0%;
+}
+@media (max-width:1100px)
+{
+    .nav-link,.card-text,.help-text
+    {
+        font-size: 2.5rem;
+    }
+    /*.navbar,.nnav
+    {
+        height:125px;
+        font-size: 15px;
+    }*/
+}

@@ -1,0 +1,99 @@
+div 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+#side_nav 
+{
+    background-color: #1A5F7A;
+    min-width:25%;
+    max-width:25%;
+    transition:all 0.3s;
+}
+.nnn 
+{
+    background-color:rgba(89,193,189,0.8);
+    padding-top:1%;
+}
+.nnn1  
+{
+    padding-top:2%;
+}
+#scrolltop  
+{
+    color:black;
+    position:fixed;
+    padding-left: 70%;
+    padding-top:37%;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.content 
+{
+    min-height:100vh;
+    width:100%;
+}
+hr.h-color 
+{
+    background-color: black;
+    width:75%;
+}
+.sidebar li.active 
+{
+    background-color: #1A5F7A;
+    border-radius:8px;
+}
+.sidebar li.active a, .sidebar li.active a:hover 
+{
+    color:#000;
+}
+.sidebar li a 
+{
+    color:#eee;
+}
+.first-div,.first  
+{
+    background-color:rgba(89,193,189,0.8);
+    margin-left: 0%;
+}
+.first  
+{
+    padding-top:13%;
+    padding-left:5%;
+    padding-bottom:21%;
+    margin-right: 0%;
+}
+.txt-1 
+{
+    padding-top: 5%;
+}
+.matter 
+{
+    background-color:#CBE4DE;
+}
+.content 
+{
+    padding-left:8%;
+    padding-right:8%; 
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine
+{
+    padding-top:13%;
+    padding-bottom:13%;
+}
+.ten  
+{
+    padding-top:11%;
+    padding-bottom:20%;
+}
+.con  
+{
+    margin:10%;
+    border-radius: 3%;
+    padding: 3%;
+    background-color:rgba(89,193,189,0.8);
+}
+h5  
+{
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
